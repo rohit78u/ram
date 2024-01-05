@@ -1,0 +1,95 @@
+body {
+    font-family: 'orange', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d4466c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#classes, #membership {
+    text-align: center;
+    padding: 20px;
+    color: #1cb6f2;
+}
+
+.class-card, .membership-card {
+    border: 1px solid #a45151;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #27ae60;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('')https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjg3BeORFZ5boKOJFLyYdZqaBRl5PfI3DwQ&usqp=CAU
+    background-position: center;
+    color: #333; /* Set text color to be visible against the background */
+}
+
+/* ... (rest of your CSS remains the same) */
